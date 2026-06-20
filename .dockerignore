@@ -1,0 +1,21 @@
+# IDE & OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Build output
+target/
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# CI / docs
+*.md
+LICENSE
+
+# Maven wrapper JAR (downloaded at build time inside container)
+.mvn/wrapper/maven-wrapper.jar
